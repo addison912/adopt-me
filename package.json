@@ -9,7 +9,7 @@
     "dev": "parcel src/index.html",
     "test": "jest --silent",
     "test:coverage": "jest --coverage",
-    "test:update": "jest -u",
+    "test:update": "jest --silent -u",
     "test:watch": "jest --watch"
   },
   "jest": {
@@ -31,15 +31,15 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0",
-    "jest": "^24.5.0",
-    "parcel-bundler": "^1.12.2",
-    "prettier": "^1.14.2"
+    "jest": "^23.5.0",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.2",
+    "react-test-renderer": "^16.4.2"
   },
   "dependencies": {
     "@reach/router": "^1.1.1",
     "petfinder-client": "^0.0.3",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-test-renderer": "^16.8.4"
+    "react-dom": "^16.4.2"
   }
 }
